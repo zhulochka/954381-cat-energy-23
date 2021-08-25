@@ -1,0 +1,19 @@
+.range__scale {
+  height: 14px;
+  background-color: $white;
+  border: 1px solid $border-color-2;
+  border-radius: 6px;
+}
+
+.range__bar {
+  width: 42%;
+  height: 6px;
+  background: $theme-color;
+  border-radius: 6px;
+  margin-top: 3px;
+  margin-left: 6px;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}

@@ -1,0 +1,18 @@
+.page-main__title {
+  @include title($line-height: 36px);
+
+  @media (min-width: $tablet-width) {
+    @include title($font-size: 60px, $line-height: 60px);
+  }
+}
+
+.page-main__text {
+  font-family: $main-font;
+  color: $black;
+  text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

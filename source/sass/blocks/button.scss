@@ -1,0 +1,31 @@
+.button {
+  display: block;
+  padding: 10px 11px;
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: $white;
+  background-color: $theme-color;
+  border: none;
+}
+
+.button--extra-theme {
+  color: $dark-color-2;
+  background-color: $extra-color-1;
+}
+
+.button--extra-font-parameters {
+  padding: 11px 11px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.button--form-tablet {
+  @media (min-width: $tablet-width) {
+    padding: 16px 16px;
+    font-size: 20px;
+  }
+}

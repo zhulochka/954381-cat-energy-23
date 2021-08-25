@@ -1,0 +1,32 @@
+.promo {
+  font-family: $main-font;
+}
+
+.promo__wrapper {
+  color: $white;
+  background-color: $theme-color;
+
+  @media (min-width: $tablet-width) {
+    color: $black;
+    background-color: transparent;
+    background-image: none;
+  }
+}
+
+.promo__title {
+  @include title($line-height: 36px, $color: $white);
+
+  @media (min-width: $tablet-width) {
+    @include title($font-size: 60px, $line-height: 60px, $color: $black);
+  }
+}
+
+.promo__text {
+  line-height: 14px;
+  text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,24 @@
+.slider__list {
+  list-style: none;
+}
+
+.slider__image--before {
+  width: 311px;
+  height: 232px;
+}
+
+.slider__image--after {
+  display: none;
+  width: 251px;
+  height: 240px;
+}
+
+.slider__control {
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $black;
+  background-color: transparent;
+  border: none;
+}

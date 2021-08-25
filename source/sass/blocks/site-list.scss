@@ -1,0 +1,9 @@
+.site-list__link {
+  color: $black;
+}
+
+.site-list__link--primary {
+  @media (min-width: $desktop-width) {
+    color: $white;
+  }
+}
