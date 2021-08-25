@@ -1,0 +1,33 @@
+.main-product {
+  @media (min-width: $tablet-width) {
+    background-color: $extra-color-1;
+  }
+}
+
+.main-product__link {
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $dark-color-3;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  @media (min-width: $desktop-width) {
+    line-height: 21px;
+  }
+}
+
+.main-product__info {
+  font-size: 12px;
+  line-height: 16px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+  }
+}

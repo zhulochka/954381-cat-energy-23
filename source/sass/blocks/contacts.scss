@@ -1,0 +1,42 @@
+.contacts__wrapper {
+  background-color: $white;
+}
+
+.contacts__wrapper--secondary {
+  background-color: $extra-color-1;
+}
+
+.contacts__intro {
+  font-size: 16px;
+  font-family: $main-font;
+  color: $dark-color-4;
+  text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  @media (min-width: $desktop-width) {
+    line-height: 25px;
+  }
+}
+
+.contacts__adress {
+  line-height: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    text-align: right;
+  }
+
+  @media (min-width: $desktop-width) {
+    text-align: left;
+  }
+}
+
+.contacts__map {
+  width: 320px;
+  height: 362px;
+  object-fit: cover;
+}

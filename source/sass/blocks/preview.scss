@@ -1,0 +1,31 @@
+.preview__item {
+  background-color: $extra-color-1;
+}
+
+.preview__title {
+  @include big-text($line-height: 37px);
+
+  @media (min-width: $tablet-width) {
+    @include big-text($font-size: 36px, $line-height: 36px);
+  }
+}
+
+.preview__description {
+  @media (min-width: $tablet-width) {
+    color: $black;
+  }
+}
+
+.preview__link {
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $black;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+  }
+}

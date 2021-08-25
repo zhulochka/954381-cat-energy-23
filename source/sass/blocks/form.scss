@@ -1,0 +1,78 @@
+.form__legend {
+  @include big-text($line-height: 26px, $text-transform: none);
+
+  @media (min-width: $tablet-width) {
+    @include big-text($font-size: 36px, $line-height: 36px, $text-transform: none);
+  }
+}
+
+
+.form__fieldset {
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+
+.form__list {
+  list-style: none;
+}
+
+.form__label {
+  font-family: $main-font;
+  font-size: 16px;
+  text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.form__label--radio {
+  color: $dark-color-3;
+}
+
+.form__label--checkbox {
+  color: $black;
+}
+
+.form__control {
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.form__control--cat-data {
+  width: 100%;
+}
+
+.form__control::placeholder {
+  color: $dark-color-2;
+  line-height: 18px;
+
+  @media (min-width: $tablet-width) {
+    line-height: 30px;
+  }
+}
+
+.form__control--textarea {
+  width: 100%;
+  min-height: 150px;
+
+  @media (min-width: $tablet-width) {
+    min-height: 174px;
+  }
+}
+
+.form__remark {
+  font-family: $extra-font;
+  line-height: 16px;
+  color: $black;
+  text-transform: none;
+}
